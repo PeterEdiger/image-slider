@@ -1,0 +1,28 @@
+
+
+<div class="projects-btns">
+  <div class="project-one" (click)="switchCurrentProject(0)">Project 1</div>
+  <div class="project-two" (click)="switchCurrentProject(1)">Project 2</div>
+</div>
+
+<div class="slider-window">
+  
+
+  <!-- Back Arrow -->
+  <div (click)="decreaseCount()" class="back-arrow">
+    <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+      fill="#e36a35">
+      <path d="M400-80 0-480l400-400 71 71-329 329 329 329-71 71Z" />
+    </svg>
+  </div>
+
+  <img class="slider-img" [src]="'../../assets/images/' + currentImgSrc" alt="">
+
+  <!--  forward Arrow  -->
+  <div (click)="increaseCount()" class="forward-arrow">
+    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e36a35">
+      <path d="m321-80-71-71 329-329-329-329 71-71 400 400L321-80Z" />
+    </svg>
+  </div>
+
+</div>

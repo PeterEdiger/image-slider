@@ -1,0 +1,48 @@
+  @import "../../styles/colors";
+  @import "../../assets/fonts/fonts.scss";
+  @import "../../styles/mixins.scss";
+
+
+
+  .slider-window {
+    @include widthHeight($w: 800px, $h: 400px);
+    background-color: #fff;
+    padding: 0 32px;
+    @include dflex($fD: row, $jC: space-between, $aI: center);
+    border: 1px solid $primary;
+    border-radius: 25px;
+  }
+
+/************************* Forward Back Btns *************************/
+  .slider-window svg {
+    cursor: pointer;
+    z-index: 1000;
+  }
+
+  .slider-img {
+    width: 30%;
+  }
+
+
+  * {
+    user-select: none;
+  }
+
+
+  /************************* Project Btns *************************/
+  .projects-btns {
+    @include dflex($fD: row, $jC: center, $aI: center, $gap: 24px);
+    padding: 24px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+
+  .projects-btns div {
+    border-radius: 10px;
+    padding: 8px;
+    width: fit-content;
+    border: solid $primary 1px;
+    color: $bg-dark;
+  }
