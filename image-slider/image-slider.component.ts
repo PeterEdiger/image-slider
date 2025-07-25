@@ -23,9 +23,6 @@ export class ImageSliderComponent {
 
   // === Methods ===
   increaseCount() {
-    console.log("This one is firing");
-    console.log(this.currentProject[0]);
-    console.log(this.currentImgSrc);
     this.currentImgIdx = (this.currentImgIdx +1) % this.currentProject.length;
     this.currentImgSrc = this.currentProject[this.currentImgIdx];
 }
