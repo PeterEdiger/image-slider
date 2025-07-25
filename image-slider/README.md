@@ -10,10 +10,10 @@
 
 
 
-Disclaimer: I used my own **mixed ins in the SCSS**
+Disclaimer: I used my own **mixins in the SCSS**
 That is something you would need to refactor. 
 
-Its easy to see from the mixed in name what was used there. 
+Its easy to see from the mixin name what was used there. 
 **Just a dflex container and height width.**
 
 You would also need to define your own color because a variable is used.
