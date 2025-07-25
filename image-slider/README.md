@@ -1,4 +1,4 @@
-# Image Slider Component
+# Angular Image Slider Component
 
 
 
