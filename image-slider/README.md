@@ -2,7 +2,7 @@
 
 
 
-**This is a image-slider.component for reusage**
+**This is an image-slider.component for reusage**
 
 **Its possible to switch gallerys/project and skip forward and back**
 
